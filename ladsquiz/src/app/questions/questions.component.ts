@@ -21,13 +21,14 @@ export class QuestionsComponent implements OnInit {
     this.route.queryParams.subscribe(params => {
       this.currentRoundId = params['rnd'];
     });
-    console.log(this.currentRoundId);
+
+    this.currentRoundQus = this.getCurrentQuestion();
   }
 
-  // getCurrentQuestion: Question[] {
-  //   this.currentRoundQus = QUESTIONS.filter(
-  //     qu => qu.rndId === this.qu.id);
-  //   return this.currentRoundQus;
-  // }
+  getCurrentQuestion(): Question[] {
+    this.currentRoundQus = QUESTIONS.filter(
+      qu => qu.rndId == this.currentRoundId);
+    return this.currentRoundQus;
+  }
 
 }

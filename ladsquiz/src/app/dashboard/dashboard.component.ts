@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Round } from '../models/round';
-import { rounds } from '../data/rounds.data';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -10,20 +7,8 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent implements OnInit {
 
-  quizStarted: boolean = false;
-  rounds: Round[];
-
-  constructor(
-    private router: Router,
-  ) {
-    this.rounds = rounds;
-  }
+  constructor() { }
 
   ngOnInit(): void {
   }
-
-  goToQuestion(rndId: number) {
-    this.router.navigate(['/questions'], { queryParams: { 'rnd': rndId } });
-  }
-
 }

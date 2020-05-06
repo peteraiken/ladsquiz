@@ -1,0 +1,37 @@
+<div>
+    <p class="round-select">Select a Round</p>
+    <div class="round-panel">
+        <div id="questionPanel" class="round-column">
+            <p class="round-column-label">Questions</p>
+            <a (click)="goToQuestion(round.id)" class="round-btn hvr-sweep-to-right" *ngFor="let round of rounds">
+                <div class="round-btn-1">
+                    {{round.id}}
+                </div>
+                <div class="round-btn-2">
+                    <span><b>Round {{round.id}}</b></span>
+                    <span>{{round.caption}}</span>
+                </div>
+                <div class="round-btn-3">
+                    <span>{{round.questionCount}}qus</span>
+                    <span>{{round.pointsAvailable}}pts</span>
+                </div>
+            </a>
+        </div>
+        <div id="answerPanel" class="round-column">
+            <p class="round-column-label">Answers</p>
+            <a (click)="goToQuestion(round.id, true)" class="round-btn hvr-sweep-to-left" *ngFor="let round of rounds">
+                <div class="round-btn-1">
+                    <span>{{round.id}}</span>
+                </div>
+                <div class="round-btn-2">
+                    <span><b>Round {{round.id}}</b></span>
+                    <span>{{round.caption}}</span>
+                </div>
+                <div class="round-btn-3">
+                    <span>{{round.questionCount}}qus</span>
+                    <span>{{round.pointsAvailable}}pts</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

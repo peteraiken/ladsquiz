@@ -3,4 +3,5 @@ export class Round {
     caption: string;
     questionCount: number;
     pointsAvailable: number;
+    imageRound: boolean;
 }

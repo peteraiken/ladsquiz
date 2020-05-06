@@ -1,0 +1,52 @@
+.round-question {    
+    .question-board {
+        .question-main {
+            text-align: center;
+            
+            .question-text {
+                margin-top: 50px;
+                font-size: 36px;
+                color: white;
+            }
+    
+            .question-image-panel {
+                img.question-image {
+                    border-radius: 50px;
+                    width: 700px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
+
+            .answer-image-panel {
+                display: flex;
+
+                img.answer-image {
+                    flex: 50%;
+                    width: 50%;
+                    object-fit: cover;
+                }
+            }
+
+            .answer-text {
+                color: white;
+                font-size: 32px;
+            }
+        }
+    }
+
+    .question-buttons-panel {
+        .question-button {
+            position: fixed;
+            bottom: 30px;
+
+            &.qub-right {
+                right: 200px;
+            }
+
+            &.qub-left {
+                left: 200px;
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 export class Question {
     id: number;
     rndId: number;
-    questionText: string;
-    imageSrc?: string;
+    question: string;
+    answer: string;
+    image?: string;
 }

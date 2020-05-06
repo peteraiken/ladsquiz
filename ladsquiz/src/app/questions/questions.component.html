@@ -1,3 +1,24 @@
-<div class="question">
-    <p class="question-text"></p>
+<a routerLink="/roundselection" class="btn btn-primary" routerLink="/roundselection">Back to Round Selection</a>
+
+<div class="round-question container">
+    <div class="question-board" *ngFor="let question of currentRoundQus">
+        <div class="question-main" *ngIf="verifyRoundAndQu(question)">
+            <p class="question-text">{{question.question}}</p>
+            <div class="question-image-panel" *ngIf="question.image && !answerMode">
+                <img class="question-image" src="{{ question.image }}" />
+            </div>
+            <div class="answer-image-panel" *ngIf="question.image && answerMode">
+                <img class="answer-image" src="{{ question.image }}" />
+                <img class="answer-image" src="{{ getAnswerImage(question) }}" />
+            </div>
+            <p *ngIf="answerMode" class="answer-text">{{ question.answer }}</p>
+        </div>
+    </div>
+
+    <div class="question-buttons-panel">
+        <a *ngIf="currentQuestionId > 1" class="btn btn-primary question-button qub-left" (click)="currentQuestionId = currentQuestionId - 1">Previous Question</a>
+        <a *ngIf="currentQuestionId != currentRoundQus.length" class="btn btn-primary question-button qub-right" (click)="currentQuestionId = currentQuestionId + 1">Next Question</a>
+        <a *ngIf="currentQuestionId == currentRoundQus.length" class="btn btn-primary question-button qub-right" routerLink="/roundselection">Finish Round</a>    
+    </div>
 </div>
+

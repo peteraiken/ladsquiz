@@ -5,9 +5,10 @@
         <div class="question-main" *ngIf="verifyRoundAndQu(question)">
             <p class="question-text">{{question.question}}</p>
             <div class="question-image-panel" *ngIf="question.image && !answerMode">
-                <img class="question-image" src="{{ question.image }}" />
+                <img *ngIf="currentRoundId != 6" class="question-image" src="{{ question.image }}" />
+                <img *ngIf="currentRoundId == 6" class="question-image-full" src="{{ question.image }}" />
             </div>
-            <div class="answer-image-panel" *ngIf="question.image && answerMode">
+            <div class="answer-image-panel" *ngIf="question.image && answerMode && currentRound.imageRound">
                 <img class="answer-image" src="{{ question.image }}" />
                 <img class="answer-image" src="{{ getAnswerImage(question) }}" />
             </div>

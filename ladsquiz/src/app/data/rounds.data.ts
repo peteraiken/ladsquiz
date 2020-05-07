@@ -12,14 +12,14 @@ export const ROUNDS: Round[] = [
         id: 2,
         caption: "World Landmarks",
         questionCount: 10,
-        pointsAvailable: 10,
+        pointsAvailable: 20,
         imageRound: true
     },
     {
         id: 3,
         caption: "Complete the Lyrics",
         questionCount: 10,
-        pointsAvailable: 10,
+        pointsAvailable: 30,
         imageRound: false
     },
     {
@@ -32,15 +32,15 @@ export const ROUNDS: Round[] = [
     {
         id: 5,
         caption: "Lego Movie Scenes",
-        questionCount: 10,
-        pointsAvailable: 10,
+        questionCount: 8,
+        pointsAvailable: 8,
         imageRound: true
     },
     {
         id: 6,
         caption: "Who Said It?",
-        questionCount: 10,
-        pointsAvailable: 10,
+        questionCount: 15,
+        pointsAvailable: 15,
         imageRound: true
     }
 ];

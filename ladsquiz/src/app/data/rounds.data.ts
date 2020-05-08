@@ -19,14 +19,14 @@ export const ROUNDS: Round[] = [
         id: 3,
         caption: "Complete the Lyrics",
         questionCount: 10,
-        pointsAvailable: 30,
+        pointsAvailable: 20,
         imageRound: false
     },
     {
         id: 4,
-        caption: "General Knowledge II",
-        questionCount: 10,
-        pointsAvailable: 10,
+        caption: "Grab Bag",
+        questionCount: 8,
+        pointsAvailable: 36,
         imageRound: false
     },
     {

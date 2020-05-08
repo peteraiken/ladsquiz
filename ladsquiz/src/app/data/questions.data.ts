@@ -5,72 +5,62 @@ export const QUESTIONS: Question[] = [
     {
         id: 1,
         rndId: 1,
-        question: "How many wings does a bee have?",
-        answer: "4",
-        image: "./assets/img/generalknowledge/beeflower.png"
+        question: "Marty McFly is a time-travelling teenager in what trio of films?",
+        answer: "Back to the Future"
     },
     {
         id: 2,
         rndId: 1,
-        question: "In Texas, it is illegal to put what on your neighbour's cow?",
-        answer: "Grafitti",
-        image: "./assets/img/generalknowledge/texascow.png"
+        question: "There are three countries of the world that are located entirely inside another country. Name any one of them.",
+        answer: "Lesotho, Vatican City, San Marino"
     },
     {
         id: 3,
         rndId: 1,
         question: "Which two countries start with the letter 'A' but do not end with it?",
-        answer: "Afghanistan and Azerbaijan",
-        image: "./assets/img/generalknowledge/worldmap.png"
+        answer: "Afghanistan and Azerbaijan"
     },
     {
         id: 4,
         rndId: 1,
-        question: "What is a baby peacock called?",
-        answer: "A peachick",
-        image: "./assets/img/generalknowledge/peacock.png"
+        question: "What dish accompanies the ham in the classic Dr. Seuss children's book?",
+        answer: "Green Eggs"
     },
     {
         id: 5,
         rndId: 1,
-        question: "Which mountain range forms a natural border between France and Spain?",
-        answer: "The Pyrenees",
-        image: "./assets/img/generalknowledge/mountainrange.png"
+        question: "Who was the first woman to win a Nobel Prize?",
+        answer: "Marie Curie"
     },
     {
         id: 6,
         rndId: 1,
-        question: "'Batman' is the name of a city in which European country?",
-        answer: "Turkey",
-        image: "./assets/img/generalknowledge/batman.png"
+        question: "What is a baby kangaroo called?",
+        answer: "Joey"
     },
     {
         id: 7,
         rndId: 1,
-        question: "What, according to a supposed African proverb, does it take a village to do?",
-        answer: "Raise a child",
-        image: "./assets/img/generalknowledge/africanvillage.png"
+        question: "What is the capital of Australia?",
+        answer: "Canberra"
     },
     {
         id: 8,
         rndId: 1,
-        question: "How many sides, in total, would three triangles and three rectangles have?",
-        answer: "21",
-        image: "./assets/img/generalknowledge/counting.png"
+        question: "Which female singer has had more number 1 songs than any other artist?",
+        answer: "Mariah Carey"
     },
     {
         id: 9,
         rndId: 1,
-        question: "What is Scooby-Doo's real and full name?",
-        answer: "Scoobert Doo",
-        image: "./assets/img/generalknowledge/scoobydoo.png"
+        question: "The brain of a computer is called the CPU. What does this stand for?",
+        answer: "Central Processing Unit"
     },
     {
         id: 10,
         rndId: 1,
-        question: "In which decade did Queen Elizabeth II become the British monarch?",
-        answer: "The 50s",
-        image: "./assets/img/generalknowledge/queenelizabethii.png"
+        question: "What word, that comes from the Hawaiian for 'quick,' is used for a website that is editable by its users?",
+        answer: "Wiki"
     },
 
     // ROUND 2 - WORLD LANDMARKS
@@ -173,8 +163,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 5,
         rndId: 3,
-        question: "I've seen trees of green, red roses too...",
-        answer: "I seen 'em bloom for me and you - What a Wonderful World / Louis Armstrong"
+        question: "At first I was afraid, I was petrified...",
+        answer: "Kept thinking I could never live without you by my side - I Will Survive / Gloria Gaynor"
     },
     {
         id: 6,
@@ -185,14 +175,14 @@ export const QUESTIONS: Question[] = [
     {
         id: 7,
         rndId: 3,
-        question: "Now don't have me break this thang down for nothin'!...",
-        answer: "I want to see you on your baddest behavior! - Hey Ya / OutKast"
+        question: "Hey, I just met you...",
+        answer: "And this is crazy - Call Me Maybe / Carly Rae Jepson"
     },
     {
         id: 8,
         rndId: 3,
-        question: "Looking out a dirty old window...",
-        answer: "Down below the cars in the city go rushing by - Kids in America / Kim Wilde"
+        question: "What doesn't kill you makes you stronger...",
+        answer: "Stand a little taller - Stronger / Kelly Clarkson"
     },
     {
         id: 9,
@@ -205,6 +195,56 @@ export const QUESTIONS: Question[] = [
         rndId: 3,
         question: "Yes, they're sharing a drink they call loneliness, but it's better than drinkin' alone...",
         answer: "Sing us a song you're the piano man - Piano Man / Billy Joel"
+    },
+
+    //ROUND 4
+    {
+        id: 1,
+        rndId: 4,
+        question: "8 Planets in our Solar System",
+        answer: "Mercury - Venus - Earth - Mars - Jupiter - Saturn - Uranus - Neptune"
+    },
+    {
+        id: 2,
+        rndId: 4,
+        question: "7 Continents",
+        answer: "Anarctica - Africa - Asia - Australia/Oceania - Europe - North America - South America "
+    },
+    {
+        id: 3,
+        rndId: 4,
+        question: "6 Colours of the Original Rubix Cube",
+        answer: "Blue - Green - Orange - Red - White - Yellow"
+    },
+    {
+        id: 4,
+        rndId: 4,
+        question: "5 Spice Girl Nicknames",
+        answer: "Scary - Sporty - Posh - Baby - Ginger"
+    },
+    {
+        id: 5,
+        rndId: 4,
+        question: "4 Horsemen of the Apocalypse",
+        answer: "Death - Famine - Pestilence - War"
+    },
+    {
+        id: 6,
+        rndId: 4,
+        question: "3 Capitals of South Africa",
+        answer: "Cape Town - Bloemfontain - Pretoria"
+    },
+    {
+        id: 7,
+        rndId: 4,
+        question: "2 Tennis 'Williams' Sisters",
+        answer: "Serena - Venus"
+    },
+    {
+        id: 8,
+        rndId: 4,
+        question: "1 Most Popular Baby Name in 2018 (USA - girl's name)",
+        answer: "Emma"
     },
 
     // ROUND 5

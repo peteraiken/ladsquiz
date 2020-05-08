@@ -11,14 +11,26 @@ import { Round } from '../models/round';
 export class RoundSelectionComponent implements OnInit {
 
   rounds: Round[];
+  loggedIn: boolean;
+  enteredPassword: string;
+  errorLoggingIn: boolean = false;
 
   constructor(
     private router: Router,
   ) {
     this.rounds = ROUNDS;
-   }
+  }
 
   ngOnInit(): void {
+  }
+
+  verifyLogin(): void {
+    this.errorLoggingIn = false;
+    if (this.enteredPassword == "IAmTheQuizmaster1234") {
+      this.loggedIn = true;
+    }
+    
+    this.errorLoggingIn = true;
   }
 
   goToQuestion(rndId: number, answerMode?: boolean) {

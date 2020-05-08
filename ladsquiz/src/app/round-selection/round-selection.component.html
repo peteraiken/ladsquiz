@@ -1,4 +1,4 @@
-<div>
+<div class="logged-in-success" *ngIf="loggedIn">
     <p class="round-select">Select a Round</p>
     <div class="round-panel">
         <div id="questionPanel" class="round-column">
@@ -34,4 +34,11 @@
             </a>
         </div>
     </div>
+</div>
+
+<div class="container log-in-form" *ngIf="!loggedIn">
+    <p>Enter quiz password to log in</p>
+    <input type="text" [(ngModel)]="enteredPassword">
+    <button class="btn btn-primary" (click)="verifyLogin()">Access Quiz</button>
+    <p class="error-failed-login" *ngIf="errorLoggingIn" type="button">Incorrect Password!</p>
 </div>

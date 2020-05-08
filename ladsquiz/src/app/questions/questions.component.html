@@ -12,7 +12,7 @@
                 <img class="answer-image" src="{{ question.image }}" />
                 <img class="answer-image" src="{{ getAnswerImage(question) }}" />
             </div>
-            <p *ngIf="answerMode" class="answer-text">{{ question.answer }}</p>
+            <span *ngIf="answerMode" class="answer-text">{{ question.answer }}</span>
         </div>
     </div>
 

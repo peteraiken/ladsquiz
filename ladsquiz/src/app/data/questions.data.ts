@@ -11,8 +11,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 2,
         rndId: 1,
-        question: "There are three countries of the world that are located entirely inside another country. Name any one of them.",
-        answer: "Lesotho, Vatican City, San Marino"
+        question: "How many teeth does an adult human have?",
+        answer: "32"
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 4,
         rndId: 1,
-        question: "What dish accompanies the ham in the classic Dr. Seuss children's book?",
-        answer: "Green Eggs"
+        question: "Where would you find the Sea of Tranquility?",
+        answer: "On the moon"
     },
     {
         id: 5,
@@ -35,14 +35,14 @@ export const QUESTIONS: Question[] = [
     {
         id: 6,
         rndId: 1,
-        question: "What is a baby kangaroo called?",
-        answer: "Joey"
+        question: "There are three countries of the world that are located entirely inside another country. Name any one of them.",
+        answer: "Lesotho, Vatican City, San Marino"
     },
     {
         id: 7,
         rndId: 1,
-        question: "What is the capital of Australia?",
-        answer: "Canberra"
+        question: "Which Broadway musical production has raked in the highest gross revenue?",
+        answer: "The Lion King"
     },
     {
         id: 8,
@@ -59,8 +59,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 10,
         rndId: 1,
-        question: "What word, that comes from the Hawaiian for 'quick,' is used for a website that is editable by its users?",
-        answer: "Wiki"
+        question: "In which 1995 film does farmer Arthur Hoggett say 'That'll do, pig. That'll do.'?",
+        answer: "Babe"
     },
 
     // ROUND 2 - WORLD LANDMARKS
@@ -117,8 +117,8 @@ export const QUESTIONS: Question[] = [
         id: 8,
         rndId: 2,
         question: "What is this landmark?",
-        answer: "Space Needle, USA",
-        image: "./assets/img/landmarks/space-needle.png"
+        answer: "Colosseum, Italy",
+        image: "./assets/img/landmarks/colosseum.png"
     },
     {
         id: 9,
@@ -133,6 +133,20 @@ export const QUESTIONS: Question[] = [
         question: "What is this landmark?",
         answer: "Leaning Tower of Pisa, Italy",
         image: "./assets/img/landmarks/leaning-tower-of-pisa.png"
+    },
+    {
+        id: 11,
+        rndId: 2,
+        question: "What is this landmark?",
+        answer: "Stonehenge, England",
+        image: "./assets/img/landmarks/stonehenge.png"
+    },
+    {
+        id: 12,
+        rndId: 2,
+        question: "What is this landmark?",
+        answer: "The Great Pyramids of Giza, Egypt",
+        image: "./assets/img/landmarks/great-pyramids-of-giza.png"
     },
 
     // ROUND 3
@@ -175,8 +189,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 7,
         rndId: 3,
-        question: "Hey, I just met you...",
-        answer: "And this is crazy - Call Me Maybe / Carly Rae Jepson"
+        question: "I got chills, they're multiplying...",
+        answer: "And I'm losing control - You're The One That I Want / Olivia Newton-John & John Travolta"
     },
     {
         id: 8,
@@ -243,8 +257,8 @@ export const QUESTIONS: Question[] = [
     {
         id: 8,
         rndId: 4,
-        question: "1 Most Popular Baby Name in 2018 (USA - girl's name)",
-        answer: "Emma"
+        question: "1 Most Popular Boy's Baby Name in 2018 (UK)",
+        answer: "Oliver"
     },
 
     // ROUND 5
@@ -339,76 +353,97 @@ export const QUESTIONS: Question[] = [
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jscott-1.jpg"
+        image: "./assets/img/whosaidit/jonny-1.jpg"
     },
     {
         id: 6,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jmcb-1.jpg"
+        image: "./assets/img/whosaidit/jscott-1.jpg"
     },
     {
         id: 7,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/dave-2.jpg"
+        image: "./assets/img/whosaidit/jmcb-1.jpg"
     },
     {
         id: 8,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jscott-2.jpg"
+        image: "./assets/img/whosaidit/dave-2.jpg"
     },
     {
         id: 9,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/harry-2.jpg"
+        image: "./assets/img/whosaidit/jscott-2.jpg"
     },
     {
         id: 10,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jmcb-2.jpg"
+        image: "./assets/img/whosaidit/harry-2.jpg"
     },
     {
         id: 11,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jmcb-tweet.jpg"
+        image: "./assets/img/whosaidit/jmcb-2.jpg"
     },
     {
         id: 12,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/harry-tweet.jpg"
+        image: "./assets/img/whosaidit/jonny-2.jpg"
     },
     {
         id: 13,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/amos-tweet.jpg"
+        image: "./assets/img/whosaidit/jmcb-tweet.jpg"
     },
     {
         id: 14,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
-        image: "./assets/img/whosaidit/jscott-tweet.jpg"
+        image: "./assets/img/whosaidit/harry-tweet.jpg"
     },
     {
         id: 15,
         rndId: 6,
         question: "Who Said It?",
         answer: "",
+        image: "./assets/img/whosaidit/amos-tweet.jpg"
+    },
+    {
+        id: 16,
+        rndId: 6,
+        question: "Who Said It?",
+        answer: "",
+        image: "./assets/img/whosaidit/jscott-tweet.jpg"
+    },
+    {
+        id: 17,
+        rndId: 6,
+        question: "Who Said It?",
+        answer: "",
         image: "./assets/img/whosaidit/dave-tweet.jpg"
+    },
+    {
+        id: 18,
+        rndId: 6,
+        question: "Who Said It?",
+        answer: "",
+        image: "./assets/img/whosaidit/jonny-tweet.jpg"
     }
 ]

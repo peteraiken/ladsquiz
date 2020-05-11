@@ -11,7 +11,7 @@ import { Round } from '../models/round';
 export class RoundSelectionComponent implements OnInit {
 
   rounds: Round[];
-  loggedIn: boolean;
+  loggedIn: boolean = true;
   enteredPassword: string;
   errorLoggingIn: boolean = false;
 
